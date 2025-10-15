@@ -97,8 +97,8 @@ BouncyBubblesGame/
 
 ## Screenshots
 
-![Gameplay](Screenshots/game.png)
-![Gameplay](Screenshots/game2.png)
+![Gameplay](BouncyBubblesGame/Screenshots/game.png)
+![Gameplay](BouncyBubblesGame/Screenshots/game2.png)
 
 ## Контакти / Автор
 

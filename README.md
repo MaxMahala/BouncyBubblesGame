@@ -21,23 +21,6 @@
    cd BouncyBubblesGame
    open BouncyBubblesGame.xcodeproj
 
-Структура проєкту
-YourGame/
-├─ Sources/
-│  ├─ UI/
-│  │  ├─ ContentView.swift          # SpriteView + кнопки пауза/звук
-│  │  └─ GameViewModel.swift        # MVVM: стан паузи/музики/рахунку
-│  ├─ Game/
-│  │  ├─ GameScene.swift            # Обробка торкань, делегування в Coordinator
-│  │  ├─ GameCoordinator.swift      # Логіка: спавн, стрільба, колізії, рестарт
-│  │  ├─ EntityFactory.swift        # Створення спрайтів (гравець/кулі/гемси/уламки/кулі)
-│  │  ├─ MotionLimiter.swift        # Клемп швидкостей, авто-видалення "лежачих"
-│  │  └─ AudioService.swift         # Музика: AVAudioSession + гучність
-│  └─ Assets/
-│     ├─ Assets.xcassets            # Фон, спрайти, іконки
-│     └─ Sounds/                    # Аудіо (bgm/sfx: interstellar.mp3)
-└─ README.md
-
 ## Керування
 
 - Пересування: ведіть пальцем по екрану — гравець слідує по осі X.

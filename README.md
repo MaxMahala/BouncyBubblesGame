@@ -97,8 +97,13 @@ BouncyBubblesGame/
 
 ## Screenshots
 
-![Gameplay](BouncyBubblesGame/Screenshots/game.png)
-![Gameplay](BouncyBubblesGame/Screenshots/game2.png)
+<p align="center">
+  <img src="BouncyBubblesGame/Screenshots/loading.png"   width="320" alt="Loading">
+  <img src="BouncyBubblesGame/Screenshots/game.png"      width="320" alt="Game">
+  <br>
+  <img src="BouncyBubblesGame/Screenshots/game2.png"     width="320" alt="Game 2">
+  <img src="BouncyBubblesGame/Screenshots/gameover.png"  width="320" alt="Game Over">
+</p>
 
 ## Контакти / Автор
 

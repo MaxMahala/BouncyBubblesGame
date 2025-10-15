@@ -95,6 +95,10 @@ BouncyBubblesGame/
 
 └─ SpawnService.swift # Лічильник/фільтр обʼєктів, допоміжний спавн
 
+## Screenshots
+
+![Main Menu](Screenshots/01-menu.png)
+![Gameplay](Screenshots/02-gameplay.png)
 
 ## Контакти / Автор
 

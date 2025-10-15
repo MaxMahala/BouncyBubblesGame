@@ -42,36 +42,59 @@ BouncyBubblesGame/
 ├─ BouncyBubblesGameApp.swift # Точка входу SwiftUI (App)
 
 ├─ Assets/ # Зображення, іконки, шрифти
+
 │
+
 ├─ Coordinator/
 
 │ ├─ Protocol/
+
 │ │ └─ GameCoordinatorDelegate.swift # Протокол оновлення рахунку тощо
 
 │ └─ GameCoordinator.swift # Ігрова логіка: спавн, колізії, стрільба, рестарт
 
 │
+
 ├─ Features/
+
 │ ├─ Model/
+
 │ │ └─ Cat.swift # Бітові маски фізики (player, bullet, …)
+
 │ ├─ View/
+
 │ │ ├─ GameView.swift # Головний SwiftUI-екран (SpriteView + кнопки)
+
 │ │ └─ LoadingView.swift # Екран завантаження (фон, титул, підзаголовок)
+
 │ └─ ViewModel/
+
 │ └─ GameViewModel.swift # MVVM-стан: пауза, музика, рахунок; зʼєднання зі сценою
+
 │
+
 ├─ Music/ # Аудіо (наприклад, interstellar.mp3)
+
 │
 ├─ Preview Content/ # Дані для SwiftUI Preview (опційно)
+
 │
+
 ├─ Scene/
+
 │ └─ GameScene.swift # SpriteKit-сцена: торкання, делегування в Coordinator
+
 │
 └─ Services/
+
 ├─ AudioService.swift # AVAudioSession + SKAudioNode, керування музикою
+
 ├─ EntityFactory.swift # Створення спрайтів/тіл: гравець, кулі, гемси, уламки, куля
+
 ├─ MotionLimiter.swift # Клемпи швидкостей, авто-видалення після бездіяльності
+
 └─ SpawnService.swift # Лічильник/фільтр обʼєктів, допоміжний спавн
+
 
 ## Контакти / Автор
 

@@ -38,13 +38,18 @@
 ## 📁 Структура проєкту
 
 BouncyBubblesGame/
+
 ├─ BouncyBubblesGameApp.swift # Точка входу SwiftUI (App)
+
 ├─ Assets/ # Зображення, іконки, шрифти
 │
 ├─ Coordinator/
+
 │ ├─ Protocol/
 │ │ └─ GameCoordinatorDelegate.swift # Протокол оновлення рахунку тощо
+
 │ └─ GameCoordinator.swift # Ігрова логіка: спавн, колізії, стрільба, рестарт
+
 │
 ├─ Features/
 │ ├─ Model/
